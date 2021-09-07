@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #000;
+}
+
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url('./wp1839971-kanye-west-wallpapers.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0 3rem;
+}
+blockquote {
+	background: transparent;
+	color: #fff;
+	font-size: 1.5rem;
+	background-color: rgba(68, 76, 94, 0.75);
+	padding: 3rem 5rem;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+
+button {
+	font-size: 1.5rem;
+	color: #fff;
+	background: rgb(63, 62, 62);
+	margin-top: 2rem;
+	padding: 1rem 2rem;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	font-weight: bolder;
+}
